@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20E17AB14980E1D00F84220 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20E17AA14980E1D00F84220 /* UIKit.framework */; };
+		F20E17AD14980E1D00F84220 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20E17AC14980E1D00F84220 /* Foundation.framework */; };
+		F20E17AF14980E1D00F84220 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20E17AE14980E1D00F84220 /* CoreGraphics.framework */; };
+		F20E17B114980E1D00F84220 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20E17B014980E1D00F84220 /* CoreData.framework */; };
+		F20E17B714980E1D00F84220 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F20E17B514980E1D00F84220 /* InfoPlist.strings */; };
+		F20E17B914980E1D00F84220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E17B814980E1D00F84220 /* main.m */; };
+		F20E17BD14980E1D00F84220 /* AreWeThereYetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E17BC14980E1D00F84220 /* AreWeThereYetAppDelegate.m */; };
+		F20E17C014980E1D00F84220 /* AreWeThereYet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F20E17BE14980E1D00F84220 /* AreWeThereYet.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F20E17A614980E1D00F84220 /* AreWeThereYet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreWeThereYet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20E17AA14980E1D00F84220 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F20E17AC14980E1D00F84220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F20E17AE14980E1D00F84220 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F20E17B014980E1D00F84220 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F20E17B414980E1D00F84220 /* AreWeThereYet-Info.plist */ = {isa = PBXFileReference; path = "AreWeThereYet-Info.plist"; sourceTree = "<group>"; };
+		F20E17B614980E1D00F84220 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F20E17B814980E1D00F84220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F20E17BA14980E1D00F84220 /* AreWeThereYet-Prefix.pch */ = {isa = PBXFileReference; path = "AreWeThereYet-Prefix.pch"; sourceTree = "<group>"; };
+		F20E17BB14980E1D00F84220 /* AreWeThereYetAppDelegate.h */ = {isa = PBXFileReference; path = AreWeThereYetAppDelegate.h; sourceTree = "<group>"; };
+		F20E17BC14980E1D00F84220 /* AreWeThereYetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreWeThereYetAppDelegate.m; sourceTree = "<group>"; };
+		F20E17BF14980E1D00F84220 /* AreWeThereYet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AreWeThereYet.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F20E17A314980E1D00F84220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E17AB14980E1D00F84220 /* UIKit.framework in Frameworks */,
+				F20E17AD14980E1D00F84220 /* Foundation.framework in Frameworks */,
+				F20E17AF14980E1D00F84220 /* CoreGraphics.framework in Frameworks */,
+				F20E17B114980E1D00F84220 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F20E179B14980E1D00F84220 = {
+			isa = PBXGroup;
+			children = (
+				F20E17B214980E1D00F84220 /* AreWeThereYet */,
+				F20E17A914980E1D00F84220 /* Frameworks */,
+				F20E17A714980E1D00F84220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F20E17A714980E1D00F84220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F20E17A614980E1D00F84220 /* AreWeThereYet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F20E17A914980E1D00F84220 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F20E17AA14980E1D00F84220 /* UIKit.framework */,
+				F20E17AC14980E1D00F84220 /* Foundation.framework */,
+				F20E17AE14980E1D00F84220 /* CoreGraphics.framework */,
+				F20E17B014980E1D00F84220 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F20E17B214980E1D00F84220 /* AreWeThereYet */ = {
+			isa = PBXGroup;
+			children = (
+				F20E17BB14980E1D00F84220 /* AreWeThereYetAppDelegate.h */,
+				F20E17BC14980E1D00F84220 /* AreWeThereYetAppDelegate.m */,
+				F20E17BE14980E1D00F84220 /* AreWeThereYet.xcdatamodeld */,
+				F20E17B314980E1D00F84220 /* Supporting Files */,
+			);
+			path = AreWeThereYet;
+			sourceTree = "<group>";
+		};
+		F20E17B314980E1D00F84220 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F20E17B414980E1D00F84220 /* AreWeThereYet-Info.plist */,
+				F20E17B514980E1D00F84220 /* InfoPlist.strings */,
+				F20E17B814980E1D00F84220 /* main.m */,
+				F20E17BA14980E1D00F84220 /* AreWeThereYet-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F20E17A514980E1D00F84220 /* AreWeThereYet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F20E17C314980E1D00F84220 /* Build configuration list for PBXNativeTarget "AreWeThereYet" */;
+			buildPhases = (
+				F20E17A214980E1D00F84220 /* Sources */,
+				F20E17A314980E1D00F84220 /* Frameworks */,
+				F20E17A414980E1D00F84220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreWeThereYet;
+			productName = AreWeThereYet;
+			productReference = F20E17A614980E1D00F84220 /* AreWeThereYet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F20E179D14980E1D00F84220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F20E17A014980E1D00F84220 /* Build configuration list for PBXProject "AreWeThereYet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F20E179B14980E1D00F84220;
+			productRefGroup = F20E17A714980E1D00F84220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F20E17A514980E1D00F84220 /* AreWeThereYet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F20E17A414980E1D00F84220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E17B714980E1D00F84220 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F20E17A214980E1D00F84220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20E17B914980E1D00F84220 /* main.m in Sources */,
+				F20E17BD14980E1D00F84220 /* AreWeThereYetAppDelegate.m in Sources */,
+				F20E17C014980E1D00F84220 /* AreWeThereYet.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F20E17B514980E1D00F84220 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F20E17B614980E1D00F84220 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F20E17C114980E1D00F84220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F20E17C214980E1D00F84220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F20E17C414980E1D00F84220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AreWeThereYet/AreWeThereYet-Prefix.pch";
+				INFOPLIST_FILE = "AreWeThereYet/AreWeThereYet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F20E17C514980E1D00F84220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AreWeThereYet/AreWeThereYet-Prefix.pch";
+				INFOPLIST_FILE = "AreWeThereYet/AreWeThereYet-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F20E17A014980E1D00F84220 /* Build configuration list for PBXProject "AreWeThereYet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20E17C114980E1D00F84220 /* Debug */,
+				F20E17C214980E1D00F84220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F20E17C314980E1D00F84220 /* Build configuration list for PBXNativeTarget "AreWeThereYet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20E17C414980E1D00F84220 /* Debug */,
+				F20E17C514980E1D00F84220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F20E17BE14980E1D00F84220 /* AreWeThereYet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F20E17BF14980E1D00F84220 /* AreWeThereYet.xcdatamodel */,
+			);
+			currentVersion = F20E17BF14980E1D00F84220 /* AreWeThereYet.xcdatamodel */;
+			path = AreWeThereYet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F20E179D14980E1D00F84220 /* Project object */;
+}
