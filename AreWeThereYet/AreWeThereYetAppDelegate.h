@@ -8,7 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AreWeThereYetAppDelegate : UIResponder <UIApplicationDelegate>
+@interface AreWeThereYetAppDelegate : UIResponder <UIApplicationDelegate>{
+    
+    // define a tab bar controller
+    UITabBarController *tabBarController;
+
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

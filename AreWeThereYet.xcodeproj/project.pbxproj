@@ -15,6 +15,16 @@
 		F20E17B914980E1D00F84220 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E17B814980E1D00F84220 /* main.m */; };
 		F20E17BD14980E1D00F84220 /* AreWeThereYetAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E17BC14980E1D00F84220 /* AreWeThereYetAppDelegate.m */; };
 		F20E17C014980E1D00F84220 /* AreWeThereYet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F20E17BE14980E1D00F84220 /* AreWeThereYet.xcdatamodeld */; };
+		F20E17C714980E8500F84220 /* CityCycleRideLocations.plist in Resources */ = {isa = PBXBuildFile; fileRef = F20E17C614980E8500F84220 /* CityCycleRideLocations.plist */; };
+		F20E17CB14980EED00F84220 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E17C914980EED00F84220 /* MapView.m */; };
+		F20E17CC14980EED00F84220 /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F20E17CA14980EED00F84220 /* MapView.xib */; };
+		F20E17CF14980F2000F84220 /* ListView.m in Sources */ = {isa = PBXBuildFile; fileRef = F20E17CE14980F2000F84220 /* ListView.m */; };
+		F234E7AE1498B85E0034FB9B /* 103-map.png in Resources */ = {isa = PBXBuildFile; fileRef = F234E7AD1498B85D0034FB9B /* 103-map.png */; };
+		F234E7B11498B86B0034FB9B /* 74-location.png in Resources */ = {isa = PBXBuildFile; fileRef = F234E7B01498B86A0034FB9B /* 74-location.png */; };
+		F234E7B31498BA0C0034FB9B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F234E7B21498BA0C0034FB9B /* CoreLocation.framework */; };
+		F234E7B51498BA1A0034FB9B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F234E7B41498BA1A0034FB9B /* MapKit.framework */; };
+		F234E7B81498FBEE0034FB9B /* LocationEntityAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F234E7B71498FBEE0034FB9B /* LocationEntityAnnotation.m */; };
+		F234E7C4149944F30034FB9B /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = F234E7C3149944F30034FB9B /* Entity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +33,27 @@
 		F20E17AC14980E1D00F84220 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F20E17AE14980E1D00F84220 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F20E17B014980E1D00F84220 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		F20E17B414980E1D00F84220 /* AreWeThereYet-Info.plist */ = {isa = PBXFileReference; path = "AreWeThereYet-Info.plist"; sourceTree = "<group>"; };
+		F20E17B414980E1D00F84220 /* AreWeThereYet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AreWeThereYet-Info.plist"; sourceTree = "<group>"; };
 		F20E17B614980E1D00F84220 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F20E17B814980E1D00F84220 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F20E17BA14980E1D00F84220 /* AreWeThereYet-Prefix.pch */ = {isa = PBXFileReference; path = "AreWeThereYet-Prefix.pch"; sourceTree = "<group>"; };
-		F20E17BB14980E1D00F84220 /* AreWeThereYetAppDelegate.h */ = {isa = PBXFileReference; path = AreWeThereYetAppDelegate.h; sourceTree = "<group>"; };
+		F20E17BA14980E1D00F84220 /* AreWeThereYet-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AreWeThereYet-Prefix.pch"; sourceTree = "<group>"; };
+		F20E17BB14980E1D00F84220 /* AreWeThereYetAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AreWeThereYetAppDelegate.h; sourceTree = "<group>"; };
 		F20E17BC14980E1D00F84220 /* AreWeThereYetAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreWeThereYetAppDelegate.m; sourceTree = "<group>"; };
 		F20E17BF14980E1D00F84220 /* AreWeThereYet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AreWeThereYet.xcdatamodel; sourceTree = "<group>"; };
+		F20E17C614980E8500F84220 /* CityCycleRideLocations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityCycleRideLocations.plist; sourceTree = "<group>"; };
+		F20E17C814980EED00F84220 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		F20E17C914980EED00F84220 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		F20E17CA14980EED00F84220 /* MapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
+		F20E17CD14980F2000F84220 /* ListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListView.h; sourceTree = "<group>"; };
+		F20E17CE14980F2000F84220 /* ListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListView.m; sourceTree = "<group>"; };
+		F234E7AD1498B85D0034FB9B /* 103-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "103-map.png"; sourceTree = "<group>"; };
+		F234E7B01498B86A0034FB9B /* 74-location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "74-location.png"; sourceTree = "<group>"; };
+		F234E7B21498BA0C0034FB9B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F234E7B41498BA1A0034FB9B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F234E7B61498FBEE0034FB9B /* LocationEntityAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationEntityAnnotation.h; sourceTree = "<group>"; };
+		F234E7B71498FBEE0034FB9B /* LocationEntityAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationEntityAnnotation.m; sourceTree = "<group>"; };
+		F234E7C2149944F30034FB9B /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		F234E7C3149944F30034FB9B /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F234E7B51498BA1A0034FB9B /* MapKit.framework in Frameworks */,
+				F234E7B31498BA0C0034FB9B /* CoreLocation.framework in Frameworks */,
 				F20E17AB14980E1D00F84220 /* UIKit.framework in Frameworks */,
 				F20E17AD14980E1D00F84220 /* Foundation.framework in Frameworks */,
 				F20E17AF14980E1D00F84220 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +76,8 @@
 		F20E179B14980E1D00F84220 = {
 			isa = PBXGroup;
 			children = (
+				F234E7B41498BA1A0034FB9B /* MapKit.framework */,
+				F234E7B21498BA0C0034FB9B /* CoreLocation.framework */,
 				F20E17B214980E1D00F84220 /* AreWeThereYet */,
 				F20E17A914980E1D00F84220 /* Frameworks */,
 				F20E17A714980E1D00F84220 /* Products */,
@@ -78,9 +106,20 @@
 		F20E17B214980E1D00F84220 /* AreWeThereYet */ = {
 			isa = PBXGroup;
 			children = (
+				F234E7AD1498B85D0034FB9B /* 103-map.png */,
+				F234E7B01498B86A0034FB9B /* 74-location.png */,
 				F20E17BB14980E1D00F84220 /* AreWeThereYetAppDelegate.h */,
 				F20E17BC14980E1D00F84220 /* AreWeThereYetAppDelegate.m */,
 				F20E17BE14980E1D00F84220 /* AreWeThereYet.xcdatamodeld */,
+				F234E7C2149944F30034FB9B /* Entity.h */,
+				F234E7C3149944F30034FB9B /* Entity.m */,
+				F20E17C814980EED00F84220 /* MapView.h */,
+				F20E17C914980EED00F84220 /* MapView.m */,
+				F20E17CA14980EED00F84220 /* MapView.xib */,
+				F20E17CD14980F2000F84220 /* ListView.h */,
+				F20E17CE14980F2000F84220 /* ListView.m */,
+				F234E7B61498FBEE0034FB9B /* LocationEntityAnnotation.h */,
+				F234E7B71498FBEE0034FB9B /* LocationEntityAnnotation.m */,
 				F20E17B314980E1D00F84220 /* Supporting Files */,
 			);
 			path = AreWeThereYet;
@@ -90,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				F20E17B414980E1D00F84220 /* AreWeThereYet-Info.plist */,
+				F20E17C614980E8500F84220 /* CityCycleRideLocations.plist */,
 				F20E17B514980E1D00F84220 /* InfoPlist.strings */,
 				F20E17B814980E1D00F84220 /* main.m */,
 				F20E17BA14980E1D00F84220 /* AreWeThereYet-Prefix.pch */,
@@ -148,6 +188,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F20E17B714980E1D00F84220 /* InfoPlist.strings in Resources */,
+				F20E17C714980E8500F84220 /* CityCycleRideLocations.plist in Resources */,
+				F20E17CC14980EED00F84220 /* MapView.xib in Resources */,
+				F234E7AE1498B85E0034FB9B /* 103-map.png in Resources */,
+				F234E7B11498B86B0034FB9B /* 74-location.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +205,10 @@
 				F20E17B914980E1D00F84220 /* main.m in Sources */,
 				F20E17BD14980E1D00F84220 /* AreWeThereYetAppDelegate.m in Sources */,
 				F20E17C014980E1D00F84220 /* AreWeThereYet.xcdatamodeld in Sources */,
+				F20E17CB14980EED00F84220 /* MapView.m in Sources */,
+				F20E17CF14980F2000F84220 /* ListView.m in Sources */,
+				F234E7B81498FBEE0034FB9B /* LocationEntityAnnotation.m in Sources */,
+				F234E7C4149944F30034FB9B /* Entity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +310,7 @@
 				F20E17C514980E1D00F84220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

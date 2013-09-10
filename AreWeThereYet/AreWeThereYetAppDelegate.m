@@ -7,6 +7,8 @@
 //
 
 #import "AreWeThereYetAppDelegate.h"
+#import "MapView.h"
+#import "ListView.h"
 
 @implementation AreWeThereYetAppDelegate
 
@@ -26,10 +28,88 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // ==============================================================================================
+    
+    // Obtain the managed object context.
+    
+    
+    
+    NSManagedObjectContext *context = [self managedObjectContext];
+    
+    if (!context) {
+        
+        NSLog(@"No NSManagedObjectContext generated");
+        
+    }
+    
+    // ==============================================================================================
+    
+    // Create the views to appear in the tab bar
+    
+    //
+    
+    // View 1 - the location list and editor
+    
+    //
+    
+     ListView *myListView = [[ListView alloc] initWithStyle:UITableViewStylePlain];
+    
+    
+    
+    // Pass the managed object context to the view controller.
+    
+    [myListView setManagedObjectContext:context];
+    
+    
+    
+    UINavigationController *aNavigationController = [[UINavigationController alloc]
+                                                     
+                                                     initWithRootViewController:myListView];
+    
+    
+    //
+    
+    // View 2 - the nearest item to me view
+    
+    //
+    
+    
+    
+    MapView *myMapView = [[MapView alloc] initWithNibName:@"MapView" bundle:nil ];
+    
+    // Pass the managed object context to the view controller.
+    
+    [myMapView setManagedObjectContext:context];
+    
+    
+    // Tab Bar Controller
+    
+    //
+    
+    tabBarController = [[UITabBarController alloc] init];
+    
+    [tabBarController setViewControllers:[NSArray arrayWithObjects:myMapView, aNavigationController, nil]];
+    
+        
+    // ==============================================================================================
+    
+    
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    [[self window] addSubview:[tabBarController view]];
+    
+    
+    
+    [myMapView release];
+    
+    [aNavigationController release];
+    
+    [myListView release];
+
+    
     return YES;
 }
 
